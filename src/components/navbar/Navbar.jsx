@@ -1,13 +1,12 @@
 import React from "react";
 import "./Navbar.scss";
 import { motion } from "framer-motion";
-import Sidebar from './sidebar'
-
+import Sidebar from "../Sidebar/sidebar";
 
 function Navbar() {
   return (
-    <div class="navbar">
-        <Sidebar/>
+    <div className="navbar">
+      <Sidebar />
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
@@ -27,7 +26,7 @@ function Navbar() {
             <img src="youtube.png" alt="youtube" />
           </a>
           <a href="#">
-            <img src="dribble.png" alt="dribble" />
+            <img src="dribbble.png" alt="dribble" />
           </a>
         </div>
       </div>

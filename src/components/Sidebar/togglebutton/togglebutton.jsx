@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const togglebutton = () => {
-  return (
-    <div>
-      togglebutton
-    </div>
-  )
-}
+const togglebutton = ({ setopen }) => {
+  return <button onClick={() => setopen((prev) => !prev)}>button</button>;
+};
 
-export default togglebutton
+export default togglebutton;
