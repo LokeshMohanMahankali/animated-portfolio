@@ -1,46 +1,45 @@
 // resets
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
 }
 
 // For smoothness
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    font-family: "DM Sans", sans-serif;
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
 }
 
-body{
-    background-color: #0c0c1d;
-    color: lightgray;
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
 }
 
-a{
-    text-decoration: none;
-    color:inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-section{
-    height: 100vh;
-    scroll-snap-align: center;
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }
 
-
-.course{
- height: 100vh;
+.course {
+  height: 100vh;
   display: flex;
- align-items: center;
- justify-content: center;
-  
-   .box{
+  align-items: center;
+  justify-content: center;
+
+  .box {
     height: 200px;
     width: 200px;
     background-color: white;
-
-   }
-
-
-
+  }
 }
